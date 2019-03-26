@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/syz/Downloads/Disjoint/DisjointSet/PointLike.cpp
+PointLike.h
+/home/syz/Downloads/Disjoint/DisjointSet/PointLike.h
+
+/home/syz/Downloads/Disjoint/DisjointSet/PointLike.h
+iostream
+-
+opencv2/core/core.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+
+/home/syz/Downloads/Disjoint/DisjointSet/RectLike.cpp
+RectLike.h
+/home/syz/Downloads/Disjoint/DisjointSet/RectLike.h
+
+/home/syz/Downloads/Disjoint/DisjointSet/RectLike.h
+iostream
+-
+opencv2/core/core.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+
+/home/syz/Downloads/Disjoint/DisjointSet/main.cpp
+RectLike.h
+/home/syz/Downloads/Disjoint/DisjointSet/RectLike.h
+PointLike.h
+/home/syz/Downloads/Disjoint/DisjointSet/PointLike.h
+ctime
+-
+
